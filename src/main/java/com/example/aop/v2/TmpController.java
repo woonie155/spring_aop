@@ -12,17 +12,17 @@ import java.lang.reflect.Proxy;
 @RestController
 public class TmpController {
 
-    @Autowired private AnnotationConfigServletWebServerApplicationContext applicationContext;
-    @Autowired private OrderControllerV2 proxy;
-
-    @GetMapping("/tmp")
-    public String test() {
-        String[] data = applicationContext.getBeanDefinitionNames();
-        log.info("-----");
-        for (String s : data)
-            if (s.indexOf("V2") > 0) log.info("{}", s);
-        log.info("-----");
-        proxy.request("test1");
-        return "o";
-    }
+//    @Autowired private AnnotationConfigServletWebServerApplicationContext applicationContext;
+//    @Autowired private OrderControllerV2 proxy;
+//
+//    @GetMapping("/tmp")
+//    public String test() {
+//        String[] data = applicationContext.getBeanDefinitionNames();
+//        log.info("-----");
+//        for (String s : data)
+//            if (s.indexOf("V2") > 0) log.info("{}", s);
+//        log.info("-----");
+//        proxy.request("test1");
+//        return "o";
+//    }
 }
