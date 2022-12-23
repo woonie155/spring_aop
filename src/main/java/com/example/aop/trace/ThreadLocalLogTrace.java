@@ -1,7 +1,5 @@
-package com.example.aop.v1.helloTrace;
+package com.example.aop.trace;
 
-import com.example.aop.trace.TraceId;
-import com.example.aop.trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

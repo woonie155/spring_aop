@@ -1,6 +1,6 @@
 package com.example.aop.v5ProxyFactory;
 
-import com.example.aop.v1.helloTrace.LogTrace;
+import com.example.aop.trace.LogTrace;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.framework.ProxyFactory;

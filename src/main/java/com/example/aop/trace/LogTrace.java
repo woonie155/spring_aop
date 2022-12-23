@@ -1,4 +1,4 @@
-package com.example.aop.v1.helloTrace;
+package com.example.aop.trace;
 
 import com.example.aop.trace.TraceStatus;
 import org.springframework.stereotype.Component;

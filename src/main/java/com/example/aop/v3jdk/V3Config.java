@@ -1,6 +1,6 @@
 package com.example.aop.v3jdk;
 
-import com.example.aop.v1.helloTrace.LogTrace;
+import com.example.aop.trace.LogTrace;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

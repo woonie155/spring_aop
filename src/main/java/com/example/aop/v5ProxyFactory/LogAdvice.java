@@ -1,7 +1,7 @@
 package com.example.aop.v5ProxyFactory;
 
 import com.example.aop.trace.TraceStatus;
-import com.example.aop.v1.helloTrace.LogTrace;
+import com.example.aop.trace.LogTrace;
 import lombok.extern.slf4j.Slf4j;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

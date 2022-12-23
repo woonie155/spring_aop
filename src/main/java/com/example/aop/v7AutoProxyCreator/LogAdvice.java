@@ -1,4 +1,4 @@
-package com.example.aop.v6BeanPostProcessor;
+package com.example.aop.v7AutoProxyCreator;
 
 import com.example.aop.trace.TraceStatus;
 import com.example.aop.trace.LogTrace;

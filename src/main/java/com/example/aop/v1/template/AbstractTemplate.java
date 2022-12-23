@@ -1,7 +1,7 @@
 package com.example.aop.v1.template;
 
 import com.example.aop.trace.TraceStatus;
-import com.example.aop.v1.helloTrace.LogTrace;
+import com.example.aop.trace.LogTrace;
 
 public abstract class AbstractTemplate<T> {
 

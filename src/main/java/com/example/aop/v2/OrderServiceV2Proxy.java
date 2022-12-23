@@ -2,7 +2,7 @@ package com.example.aop.v2;
 
 
 import com.example.aop.trace.TraceStatus;
-import com.example.aop.v1.helloTrace.LogTrace;
+import com.example.aop.trace.LogTrace;
 
 public class OrderServiceV2Proxy extends OrderServiceV2{
 

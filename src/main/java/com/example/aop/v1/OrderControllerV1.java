@@ -1,10 +1,7 @@
 package com.example.aop.v1;
 
-import com.example.aop.trace.TraceStatus;
-import com.example.aop.v0.helloTrace.HelloTraceV0;
 import com.example.aop.v1.callback.TraceCallback;
-import com.example.aop.v1.helloTrace.LogTrace;
-import com.example.aop.v1.template.AbstractTemplate;
+import com.example.aop.trace.LogTrace;
 import com.example.aop.v1.template.CallbackTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

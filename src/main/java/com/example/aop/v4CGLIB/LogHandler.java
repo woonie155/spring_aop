@@ -1,7 +1,7 @@
 package com.example.aop.v4CGLIB;
 
 import com.example.aop.trace.TraceStatus;
-import com.example.aop.v1.helloTrace.LogTrace;
+import com.example.aop.trace.LogTrace;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
