@@ -9,12 +9,12 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class V7Config {
-    @Bean
-    public Advisor v7advisor(LogTrace logTrace) {
-        AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        pointcut.setExpression("execution(* com.example.aop.v7AutoProxyCreator..*(..)) " +
-                "&& !execution(* com.example.aop.v7AutoProxyCreator..noLog(..))");
-        LogAdvice advice = new LogAdvice(logTrace);
-        return new DefaultPointcutAdvisor(pointcut, advice);
-    }
+//    @Bean
+//    public Advisor v7advisor(LogTrace logTrace) {
+//        AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
+//        pointcut.setExpression("execution(* com.example.aop.v7AutoProxyCreator..*(..)) " +
+//                "&& !execution(* com.example.aop.v7AutoProxyCreator..noLog(..))");
+//        LogAdvice advice = new LogAdvice(logTrace);
+//        return new DefaultPointcutAdvisor(pointcut, advice);
+//    }
 }
