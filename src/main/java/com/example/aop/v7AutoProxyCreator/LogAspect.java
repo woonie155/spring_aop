@@ -27,6 +27,9 @@ public class LogAspect {
     public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
         TraceStatus status = null;
         try {
+            Object arg1 = joinPoint.getArgs()[0];
+            log.info("[{}파라미터]{}",joinPoint.getSignature(),arg1);
+
             String message = joinPoint.getSignature().toShortString();
             status = logTrace.begin(message);
             Object result = joinPoint.proceed();
@@ -60,6 +63,4 @@ public class LogAspect {
      * -@AfterThrowing
      * -@After
      */
-
-
 }
